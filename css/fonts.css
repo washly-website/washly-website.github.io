@@ -1,0 +1,17 @@
+/* Custom Genty Font */
+@font-face {
+    font-family: 'Genty';
+    src: url('../fonts/GentyDemo-Regular.ttf') format('truetype');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fallback using Google Fonts similar font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+/* Font family variables */
+:root {
+    --font-primary: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-logo: 'Genty', 'Quicksand', sans-serif;
+}
