@@ -143,7 +143,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 20px;
+    padding: 0.5rem 20px;
 }
 
 .logo {
@@ -214,7 +214,7 @@ body {
 
 /* Hero Section */
 .hero {
-    margin-top: 80px;
+    margin-top: 60px;
     padding: 4rem 20px;
     background: linear-gradient(135deg, var(--icy-blue) 0%, rgba(195, 235, 255, 0.3) 100%);
     min-height: 600px;
@@ -299,6 +299,13 @@ body {
 .washing-icon {
     font-size: 15rem;
     animation: float 3s ease-in-out infinite;
+}
+
+.washing-icon img {
+    padding-top: 130px;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
 }
 
 .floating-bubble {
